@@ -1,0 +1,9 @@
+local values = {} 
+
+for i = 1, 100 do
+  values[i] = i
+end
+
+for i = 1, 100 do
+  print(values[i])
+end
